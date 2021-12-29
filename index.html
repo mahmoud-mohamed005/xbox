@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Xbox controller</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <img src="Images/xbox-one-2-logo.png" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Game Controllers</a></li>
+                    <li><a href="#">Vr Accessories</a></li>
+                    <li><a href="#">Media Remotes</a></li>
+                    <li><a href="#">Others</a></li>
+                </ul>
+            </nav>
+            <label class="switch">
+                <input type="checkbox" checked id="button">
+                <span class="slider round"></span>
+            </label> 
+        </div>
+    </header>
+    <section>
+        <div class="col-1">
+            <h2>Xbox Wireless Controller</h2>
+            <p>Textured triggers and bumpers I Hybrid D-pad I Button mapping I Bluetooth® technology
+            </p>
+            <h3>$59.99</h3>
+            <button type="button">Buy Now  <img src="Images/arrow.png"></button>
+        </div>
+        <div class="col-2">
+            <img src="Images/kisspng-xbox-one-controller-microsoft-xbox-one-wireless-co-5b078d81b8bd33.1600857215272216337567.png" alt="controller" class="controller">
+            <div class="color-box"></div>
+            <div class="add-btn">
+                <img src="Images/add.png" alt="add">
+                <p><small>Add to cart</small></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </footer>   
+<script>
+    var button = document.getElementById("button");
+    button.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    }
+</script>        
+</body>
+</html>
